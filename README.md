@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # game
 
 A Phaser game built with [@tialops/maki](https://www.npmjs.com/package/@tialops/maki).
@@ -75,3 +76,6 @@ maki new sprite
 ```
 
 This creates `maki.config.js` based on your sprite layout.
+=======
+# pixel-dead-game
+>>>>>>> 194770c08258edbbfa7d4463f4fa8fe088c269f9
