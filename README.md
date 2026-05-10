@@ -1,81 +1,57 @@
-<<<<<<< HEAD
-# game
+🧟 Dead Pixel - 2D Zombie Combat Game
+A fast-paced, dark fantasy 2D platformer built with the Maki Framework and Phaser 3. Choose your fighter, battle through relentless hordes of zombies, and survive the onslaught!
 
-A Phaser game built with [@tialops/maki](https://www.npmjs.com/package/@tialops/maki).
+✨ Features
+Character Selection: Choose between the Gangster or the Samurai before dropping into the village.
 
-## What You Get
+Intense Combat: Tight, hand-to-hand combat mechanics with punishing enemy proximity tracking.
 
-- A ready-to-run Phaser game setup
-- A starter scene: `scenes/GameScene.js`
-- A starter sprite: `sprites/lia.png`
-- Main entry file: `game.js`
+Wave Survival: Survive continuous, dynamic waves of zombies and face off against the King Pig boss.
 
-## Very Simple Flow
+Scoring System: Rack up points for every kill and try to beat your high score before your health runs out.
 
-1. Run dev server
+🚀 How to Run the Game Locally
+Prerequisites
+Make sure you have Node.js installed on your computer.
 
-```bash
-maki dev
-```
+Installation Steps
+1. Clone the repository:
+git clone https://github.com/swamisonna006-prog/pixel-dead-game.git
+cd pixel-dead-game
 
-2. Add a scene
+2. Install dependencies:
+npm install
 
-Create `scenes/MenuScene.js`:
+3. Start the development server:
+npm run dev
+     or
+npx maki dev
 
-```js
-import { Scene } from '@tialops/maki'
+5. Play the game:
+Open your web browser and go to http://localhost:5173
 
-export default class MenuScene extends Scene {
-    preload() { super.preload() }
-    create()  { super.create()  }
-    update()  {}
-}
-```
+🎮 Controls
+[ ↑ ] Top Arrow: Run / Jump
 
-Then register it in `game.js`:
+[ ← ] Left Arrow: Move Left
 
-```js
-import Phaser from 'phaser'
-import GameScene from './scenes/GameScene.js'
-import MenuScene from './scenes/MenuScene.js'
+[ → ] Right Arrow: Move Right
 
-new Phaser.Game({
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    backgroundColor: '#1a1a2e',
-    physics: { default: 'arcade', arcade: { debug: false } },
-    scene: [MenuScene, GameScene]
-})
-```
+[ A ] Key: Attack
 
-3. Create a tilemap
+🎯 Gameplay Rules
+Survive: You only have 5 health points. Enemies deal damage when they get extremely close!
 
-```bash
-maki tilemap
-```
+Score: Earn 100 points for every zombie killed.
 
-| Prompt | Notes |
-|--------|-------|
-| Tile size | 8 / 16 / 32 / 64 px or custom |
-| Map name | saved as `assets/maps/<name>.json` |
-| Load existing? | reloads a previously saved map to edit |
-| Map width (tiles) | defaults to canvas width ÷ tile size |
-| Map height (tiles) | defaults to canvas height ÷ tile size |
+Boss Fights: Defeat King Pigs to earn 200 points.
 
-Canvas size is read from `maki.config.js` so the default dimensions always match your game.
-Paint tiles, mark collision areas, then click **Export**.
+🛠️ Built With
+Maki Framework
 
-4. Add your own sprite
+Phaser 3
 
-- Put your spritesheet PNG inside `sprites/`
-- Run:
+Vanilla JavaScript & CSS
 
-```bash
-maki new sprite
-```
-
-This creates `maki.config.js` based on your sprite layout.
-=======
-# pixel-dead-game
->>>>>>> 194770c08258edbbfa7d4463f4fa8fe088c269f9
+👨‍💻 Author
+Lakshmana Swami
