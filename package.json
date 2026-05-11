@@ -1,0 +1,19 @@
+{
+  "name": "maki-game",
+  "version": "1.0.0",
+  "description": "My Maki Game",
+  "main": "game.js",
+  "type": "module",
+  "scripts": {
+    "dev": "maki dev",
+    "build": "maki build",
+    "preview": "maki preview"
+  },
+  "dependencies": {
+    "@tialops/maki": "^1.1.0",
+    "phaser": "^3.60.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
