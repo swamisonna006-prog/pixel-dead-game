@@ -23,13 +23,13 @@ Make sure you have Node.js installed on your computer.
    ```bash
    npm install
    ```
-
-3. Start the development server:
+3. cd game
+4. Start the development server:
    ```bash
    npm run dev
    ```
 
-4. Play the game:
+5. Play the game:
    Open your web browser and go to `http://localhost:5173`
 
 ## 🎮 Controls
